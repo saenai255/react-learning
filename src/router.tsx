@@ -14,7 +14,6 @@ export const router = createBrowserRouter([
         element: <Suspense fallback={<Loading />}>
             <HomePage />
         </Suspense>,
-
     },
     {
         path: '/login',

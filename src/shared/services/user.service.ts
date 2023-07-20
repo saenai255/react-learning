@@ -36,7 +36,7 @@ export const login = async (email: string, password: string): Promise<User> => {
     return user;
 }
 
-const validateUserPayload = (user: Omit<User, 'id'>): void => {
+export const validateUserPayload = (user: Omit<User, 'id'>): void => {
     if (user.firstName.trim() === "") {
         throw new Error("First name cannot be empty.");
     }

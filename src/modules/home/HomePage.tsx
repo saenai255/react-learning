@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import Navigation from "../../shared/components/nav/Navigation";
 
 const HomePage = (): ReactNode => {
-
     return <>
         <Navigation />
         This is the home page.
